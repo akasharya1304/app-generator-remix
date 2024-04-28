@@ -2,7 +2,7 @@
 [build]
   command = "npx prisma generate && npm run build"
   functions = "netlify/functions"
-  publish = "dist"
+  publish = "build/clent"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
